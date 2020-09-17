@@ -58,7 +58,7 @@
 
 ![image-20200917232252478](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917232252478.png)
 
-![image-20200917232355412](D:\prs\iron12th_Azure\uPic\image-20200917232355412.png)
+![image-20200917232355412](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917232355412.png)
 
 好了，今天主要介紹的是AzureAD的簡介及使用者、群組建立流程。AzureAD的應用還包括App registry，預計會在後面的實作中一併說明。
 
