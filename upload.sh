@@ -3,11 +3,14 @@ base_url="https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uP
 i=0
 for file in "$@"
 do
-filename="$(basename $file)"
-echo "$filename"
-cp "$file" "D:\\Jesse_Chang\\pprs\\azure_docs\\uPic\\$filename"
-output="$base_url$filename"
-echo $output | sed 's/\\//g'
+    filename="$(basename -- $file)"
+    cp "$file" "D:\\prs\\iron12th_Azure\\uPic\\$filename"
+    result[((i++))]="$base_url$filename"
 done
 
-echo "Upload Success"
+echo "Upload Success:"
+for url in "${result[@]}"
+do
+output="$url"
+echo $output | sed 's/\\//g'
+done
