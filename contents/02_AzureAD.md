@@ -14,6 +14,8 @@
 
 說明文件有提到：『Azure AD是 Microsoft 的雲端式身分識別和存取管理服務，可協助員工登入及存取Microsoft 365、Azure 入口網站和其他數千個 SaaS 應用程式等外部資源，及公司網路和內部網路上的應用程式，以及您自己的組織所開發的任何雲端應用程式。』意味著你可以利用AzureAD替你管理使用者資訊。
 
+## 建立使用者
+
 在同一個租用戶中，你可以建立不同的使用者及群組，甚至邀請已經有microsoft帳號的使用者到這個租用戶中，接下來建立一個新的使用者試試吧。按下Create系列中的User，直接進入新增使用者的畫面。
 
 ![image-20200917005111068](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917005111068.png)
@@ -29,3 +31,34 @@
 ![image-20200917005834922](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917005834922.png)
 
 ![image-20200917010121176](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917010121176.png)
+
+修改後便可以使用該帳號登入，並共用同一個免費帳戶的資源!
+
+## 建立群組
+
+在AzureAD中，你也可以建立不同的群組，管理不同的使用者存取資源的權限。
+
+![image-20200917225541043](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917225541043.png)
+
+建立時至少需填寫名稱，類型的話預設為Security，若想要選擇O365的可以在這邊選擇，命名完成後按下Create便完成群組的建立!
+
+![image-20200917231501284](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917231501284.png)
+
+此時回到群組列表就會看到剛剛建立的群組囉!
+
+![image-20200917231725892](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917231725892.png)
+
+進入剛剛建立的`新手村`後，可以選擇member來設定加入群組的成員，來把剛剛建立的使用者加進去吧!
+
+![image-20200917231921827](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917231921827.png)
+
+![image-20200917232015214](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917232015214.png)
+
+此時右邊會跳出視窗讓你選擇想要加入到此群組的使用者帳號，找到剛剛建立的使用者並點一下，他就會跳到下面的區塊，代表這個使用者帳號被你選到了，若還想加入其他的帳號可以繼續點，點完後按一下select便完成設定囉!
+
+![image-20200917232252478](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200917232252478.png)
+
+![image-20200917232355412](D:\prs\iron12th_Azure\uPic\image-20200917232355412.png)
+
+好了，今天主要介紹的是AzureAD的簡介及使用者、群組建立流程。AzureAD的應用還包括App registry，預計會在後面的實作中一併說明。
+
