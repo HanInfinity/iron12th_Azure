@@ -5,7 +5,7 @@
 
 # 實作
 
-接下來要講一下實戰性的部分了，在queue及topic都是處理訊息傳送的部分，所以會有程式將訊息傳送到service bus，也就會有程式從service bus中讀取出來。因此下面實作的部分，將個別說明Queue及Topic兩者在傳送與接收訊息之間的差異，本篇實作程式碼均參考[官方說明文件](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/servicebus/azure-servicebus)再加以調整內容。
+接下來要講一下實戰性的部分了，在queue及topic都是處理訊息傳送的部分，所以會有程式將訊息傳送到service bus，也就會有程式從service bus中讀取出來，因此下面實作的部分，將個別說明Queue及Topic兩者在傳送與接收訊息之間的差異。本篇實作程式碼均參考[官方說明文件](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/servicebus/azure-servicebus)再加以調整內容。實作過程使用JupyterNotebook，有興趣想動手試試的可以參考我的[Jupyter Notebook](https://github.com/HanInfinity/iron12th_Azure/blob/master/JupyterNotebook/ServiceBus.ipynb)，另外也有提供[requirements.txt](https://github.com/HanInfinity/iron12th_Azure/blob/master/JupyterNotebook/requirements.txt)在自行使用JupyterNotebook時直接安裝相關套件測試。
 
 ## 安裝套件
 
