@@ -21,7 +21,7 @@ Microsoft Azure 服務匯流排是完全受控的企業整合訊息代理程式�
 
 ## Queues
 
-Queues中文翻譯為`佇列`，一個queue代表一個傳遞管道，當有訊息傳送到此queue時，就只會有一個接收者會收到訊息。另外Queues在處理訊息時並沒有照訊息的傳送時間排序，也就是說當queue中有好幾個訊息，接收者處理時不一定會先處理到第一個傳送的訊息，若使用的服務有要按傳送先後順序處理的需求，就需要使用topic處理。
+Queues中文翻譯為`佇列`，一個queue代表一個傳遞管道，當有訊息傳送到此queue時，就只會有一個接收者會收到訊息。
 
 ![佇列](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadabout-service-bus-queue.png)
 
@@ -76,3 +76,16 @@ Service Bus 定價及功能說明如下，值得注意的是，Basic並未包含
 ![image-20200920221551820](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200920221551820.png)
 
 今天文章中說明了Service Bus及Queue、Topic的特性，並且建立了Queue及Topic服務。明天將繼續介紹利用python傳送與接收Queue、Topic兩個服務的方法。
+
+
+
+---
+★ **Amos3.0 團隊系列文** ★  
+
+以下為團隊所有成員的主題，也歡迎大家前往欣賞喔！
+
+- CSScoke - [金魚都能懂的Bootstrap5網頁框架開發](https://ithelp.ithome.com.tw/users/20112550/ironman/3796)  
+- King Tzeng - [【去年我得了IoT組冠軍!?】寫書教戰手冊＆IoT沒那麼難！新手用JavaScript入門做自己的玩具，實作影片化決定！](https://ithelp.ithome.com.tw/users/20103130/ironman/3712)  
+- Clarence - [用 CDK 定義 AWS 架構](https://ithelp.ithome.com.tw/users/20117701/ironman/3734)  
+- Vita Ora - [為自己而寫，前端工程師之 30 天心得分享](https://ithelp.ithome.com.tw/users/20112656/ironman/3799)  
+- 塔塔默 - [用Azure建立一條龍的服務](https://ithelp.ithome.com.tw/users/20112552/ironman/3823)
