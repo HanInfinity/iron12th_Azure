@@ -19,3 +19,14 @@ Resource group 提供管理Azure資源的服務，你可以讓所有同樣專案
 進入Tatamo後的畫面如下，畫面下方的地方顯示在這個 resource group 中的資源或服務，因為現在還沒有，就會是空的。
 
 ![image-20200918172622804](https://raw.githubusercontent.com/HanInfinity/iron12th_Azure/master/uPic/image-20200918172622804.png)
+
+---
+★ **Amos3.0 團隊系列文** ★  
+
+以下為團隊所有成員的主題，也歡迎大家前往欣賞喔！
+
+- CSScoke - [金魚都能懂的Bootstrap5網頁框架開發](https://ithelp.ithome.com.tw/users/20112550/ironman/3796)  
+- King Tzeng - [【去年我得了IoT組冠軍!?】寫書教戰手冊＆IoT沒那麼難！新手用JavaScript入門做自己的玩具，實作影片化決定！](https://ithelp.ithome.com.tw/users/20103130/ironman/3712)  
+- Clarence - [用 CDK 定義 AWS 架構](https://ithelp.ithome.com.tw/users/20117701/ironman/3734)  
+- Vita Ora - [為自己而寫，前端工程師之 30 天心得分享](https://ithelp.ithome.com.tw/users/20112656/ironman/3799)  
+- 塔塔默 - [用Azure建立一條龍的服務](https://ithelp.ithome.com.tw/users/20112552/ironman/3823)
