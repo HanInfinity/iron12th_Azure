@@ -1,0 +1,1 @@
+跟Dropbox, Google Drive, One Drive等雲端硬碟一樣，Azure也有屬於他自己的雲端硬碟Storage。但Storage中可用的功能比其他雲端硬碟更多，還能夠設定一些服務。
