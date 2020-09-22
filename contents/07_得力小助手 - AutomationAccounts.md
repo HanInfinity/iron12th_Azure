@@ -163,11 +163,29 @@ foreach ($ResourceGroup in $ResourceGroups)
 
 每一個runbook都可以設定排程執行，在進入runbook後，可以看到一個`Link to shedule`按鈕，按一下可以進入設定。
 
+![image-20200922224439884](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200922224439884.png)
+
+接著會跳出兩個選項，一個是要你設定排程的時間以及頻率、終止時間等；另一個則是設定執行使用的參數，當runbook中有需要讀取參數的時候，這裡需要設定。
+
+![image-20200922224924552](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200922224924552.png)
+
+我這邊使用的是powershell的排程，因為不需要輸入任何參數，在設定好排程後按一下`OK`就完成囉！
+
+![image-20200922225011720](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200922225011720.png)
+
+接下來就是等待執行結果，可以在進入runbook後的畫面下方區塊看到執行進度。
+
+![image-20200922225310748](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200922225310748.png)
+
+再點進去可以看到個別執行結果，包含輸出的結果及錯誤或警告訊息等，讓你了解此次執行是否成功，或遇到哪些問題。
+
+![image-20200922225419582](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200922225419582.png)
 
 
 
+## 結論
 
-
+今天主要介紹了Automation Accounts 的功能以及操作解說，以及圖形化runbook、powershell runbook及python runbook的操作方式，另外也有提到設定時間排程的方式。
 
 ---
 ★ **Amos3.0 團隊系列文** ★  
