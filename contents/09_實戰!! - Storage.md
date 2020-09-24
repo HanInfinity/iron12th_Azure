@@ -147,7 +147,7 @@ task.priority = 100
 table_service.insert_entity('tatable', task)
 ```
 
-兩種型態傳送到Azure Storage Table，都會各自存成一筆資料，讀取回來的結果如下：
+兩種型態傳送到Azure Storage Table，都會各自存成一筆資料，讀取資料的程式碼與結果如下：
 
 ```python
 tasks = table_service.query_entities(
