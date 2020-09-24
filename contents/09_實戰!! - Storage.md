@@ -173,7 +173,7 @@ tasksSeattle
 -------
 ```
 
-
+本篇實作有另外建立[Jupyter Notebook](https://github.com/HanInfinity/iron12th_Azure/blob/master/JupyterNotebook/Storage.ipynb)並更新requirements，想動手試試看的朋友可以參考喔！
 
 ---
 
