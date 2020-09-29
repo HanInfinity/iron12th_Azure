@@ -3,6 +3,36 @@ AKS的設定方有很多，你可以透過az cli傳送指令，也可以透過pi
 
 
 
+
+## 連不上ACR
+
+當執檢視pod狀態發現`ImagePullBackOff`時，很有可能是AKS無法從ACR中抓出image，此時需要輸入指令使AKS與ACR接上。
+
+![image-20200929133131210](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200929133131210.png)
+
+輸入以下指令，其中`myAKSCluster` 為AKS名稱、`myResourceGroup`為resource group 名稱，而 `<acr-name>`為ACR名稱。`<acr-name>`也可以改用`<acr-resource-id>`替代。
+
+```bash
+az aks update -n myAKSCluster -g myResourceGroup --attach-acr <acr-name>
+```
+
+看到以下訊息表示成功接上
+
+![image-20200929133813134](https://raw.githubusercontent.com/HanInfinity/MDnoteImg/master/typora_uploadimage-20200929133813134.png)
+
+
+
+若要移除與ACR的對接，也可以透過指令完成。
+
+```bash
+az aks update -n myAKSCluster -g myResourceGroup --detach-acr <acr-name>
+```
+
+
+
+
+
+
 ---
 
 ★ **Amos3.0 團隊系列文** ★  
