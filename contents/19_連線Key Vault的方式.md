@@ -190,7 +190,7 @@ print(retrieved_certificate.name)
 
 # 總結
 
-本篇介紹透過 Azure Cloud Shell 來建立與存取 `Keys`、`Secretes`及`Certificates` 的資訊，以及使用 Python 讀取資訊。Python 程式碼使用Jupyter Notebook 執行，可以前往此處參考。Python的存取方式為AD Secrete驗證，官方建議僅於開發測試時使用，正式產品環境還是建議使用憑證或是MSI方式進行驗證會更加安全。
+本篇介紹透過 Azure Cloud Shell 來建立與存取 `Keys`、`Secretes`及`Certificates` 的資訊，以及使用 Python 讀取資訊。Python 程式碼使用Jupyter Notebook 執行，可以前往[此處](https://github.com/HanInfinity/iron12th_Azure/blob/master/JupyterNotebook/Key%20Vault.ipynb)參考。Python的存取方式為AD Secrete驗證，官方建議僅於開發測試時使用，正式產品環境還是建議使用憑證或是MSI方式進行驗證會更加安全。
 
 ---
 
