@@ -6,6 +6,10 @@ azure-common==1.1.25
 azure-core==1.8.1
 azure-cosmosdb-nspkg==2.0.2
 azure-cosmosdb-table==1.0.6
+azure-identity==1.4.0
+azure-keyvault-certificates==4.2.1
+azure-keyvault-keys==4.2.0
+azure-keyvault-secrets==4.2.0
 azure-nspkg==3.0.2
 azure-servicebus==7.0.0b6
 azure-storage-blob==12.5.0
@@ -36,6 +40,8 @@ jupyter-core==4.6.3
 jupyterlab-pygments==0.1.1
 MarkupSafe==1.1.1
 mistune==0.8.4
+msal==1.5.0
+msal-extensions==0.2.2
 msrest==0.6.19
 nbclient==0.5.0
 nbconvert==6.0.4
@@ -48,11 +54,13 @@ pandocfilters==1.4.2
 parso==0.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
+portalocker==1.7.1
 prometheus-client==0.8.0
 prompt-toolkit==3.0.7
 ptyprocess==0.6.0
 pycparser==2.20
 Pygments==2.7.1
+PyJWT==1.7.1
 pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
