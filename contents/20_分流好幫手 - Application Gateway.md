@@ -1,5 +1,3 @@
-
-
 # 說明
 
 在[Azure 官方文件](https://docs.microsoft.com/zh-tw/azure/application-gateway/overview)中提及：
