@@ -28,7 +28,7 @@ Activate Directory 已經提供許多與網站或服務整合的功能，本系�
 
 # 總結
 
-本篇簡單介紹了 Activate Directory 的建立及帳戶類型。下一篇將說明使用MSAL、Django-social-auth介紹與 Activate Directory 整合SSO的方式。
+本篇簡單介紹了 Activate Directory 的建立及帳戶類型。後續將說明使用MSAL、Django-social-auth介紹與 Activate Directory 整合SSO的方式。
 
 ---
 
