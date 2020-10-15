@@ -1,7 +1,5 @@
 # 說明
 
-在前面已經介紹過了網站部屬的服務(AKS、App Service)、資料庫(PostgreSQL)、資料儲存(Storage)、容器(Container Registry)，基本上已經可以建立一個完整的網站了。再加上訊息推播(Notification hub)讓網站資訊可以與手機整合、訊息處理(Service Bus)提供非同步執行方式，提供更多元的服務設定。最後還有Key Vault、Application Gateway 賦予網站更安全的資訊放置位置，以及更安全的流量把關。
-
 有時候網站需要建立會員資料庫，並設定登入驗證、授權等等，若這些事情交給Azure服務，或許在某些情況來說會方便許多，本篇將介紹網站與 Activate Directory 整合的方式。
 
 # App registrations
